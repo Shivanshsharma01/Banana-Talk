@@ -71,8 +71,7 @@ body {
     padding: 0rem 1rem;
     background-color: var(--primary-color);
     text-align: center;
-    position: fixed;
-
+    position: absolute;
 }
 
 .footer p {
