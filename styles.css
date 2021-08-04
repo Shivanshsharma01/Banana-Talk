@@ -64,7 +64,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     padding: 1rem;
@@ -74,7 +74,7 @@ body {
 }
 
 .footer p {
-    max-width: var(--width-break);
+    
     margin: auto;
     padding: 0rem 2rem;
     text-align: center;
