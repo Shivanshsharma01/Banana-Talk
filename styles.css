@@ -12,7 +12,7 @@ body {
 }
 
 .navigation {
-    text-align: center;
+    
     background-color: var(--primary-color);
     padding: 0.1rem 1rem;
     font-size: large;
@@ -69,6 +69,7 @@ body {
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    position: fixed;
 
 }
 
@@ -77,4 +78,6 @@ body {
     padding: 0rem 2rem;
     text-align: center;
     padding-inline-start: 0px;
+    max-width: var(--width-break);
+   
 }
