@@ -1,25 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+:root {
+    --primary-color: #FBBF24;
+    --width-break: 600px;
+}
+
+.navigation {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 0.1rem 1rem;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
 .text-area {
     width: 80%;
     display: block;
     height: 10vh;
     padding: 1rem;
-    margin: 1rem;
+    margin-left: 1rem;
+    align-self: center;
+    font-size: large;
+    font-family: inherit;
+    margin-bottom: 2rem;
+
 }
 
 .button-translate {
     margin: 1rem;
     padding: 0.5rem;
-    
+    background-color: var(--primary-color);
+    font-size: large;
+    font-family: inherit;
+    /* padding: 1rem 2rem; */
+
 }
+
 .output-box {
     border: 1px solid black;
     height: 10vh;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0rem 1rem;
     width: 80%;
 
 }
 
-.style{
+.output-head {
     margin-left: 1rem;
+    margin-top: 2rem;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+
+}
+
+.footer p {
+    max-width: var(--width-break);
+    margin: auto;
+    padding: 0rem 2rem;
+    text-align: center;
+    padding-inline-start: 0px;
 }
