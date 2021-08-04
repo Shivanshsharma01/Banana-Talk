@@ -22,7 +22,7 @@ body {
 .main {
     margin: auto;
     padding-bottom: 1rem;
-    max-width: var(--width-break);
+    /* max-width: var(--width-break); */
 }
 
 .text-area {
